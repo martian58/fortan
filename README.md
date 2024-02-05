@@ -6,7 +6,7 @@
 
 ```bash
     git clone https://github.com/martian58/fortan.git
-    cd fortah
+    cd fortan
     chmod +x fortan.sh
     ./fortan.sh
 
