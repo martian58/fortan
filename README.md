@@ -8,6 +8,7 @@
     git clone https://github.com/martian58/fortan.git
     cd fortan
     chmod +x fortan.sh
+    sudo su
     ./fortan.sh
 
 ```
