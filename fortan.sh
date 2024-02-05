@@ -36,9 +36,14 @@ while [ "$status_is_set" == false ]; do
         echo -e "${bold_pink}Dont stop the process until it ends itself"
         sleep 2
         echo -e "${bold_blue}"
-        # sudo apt update
-        # sudo apt upgrade
-        # sudo apt install build-essential
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install build-essential
+        sudo apt install -f
+        sudo apt autoremove
+        sudo apt clean
+        sudo apt update
+        sudo apt upgrade
         echo -e "${bold_green}All done!"
         echo -e "${bold_green}Dont forget to like and follow my github :), it's right here: https://github.com/martian58"
         sleep 2
